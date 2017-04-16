@@ -267,6 +267,6 @@ zmodload zsh/parameter 2>/dev/null
 autoload -U is-at-least 
 source "${ZERO:h}/fast-highlight"
 
-[[ "${+termcap[Co]}" = 1 && "${termcap[Co]}" = "256" ]] && FAST_HIGHLIGHT_STYLES[variable]="fg=112"
+[[ "${+termcap[Co]}" = 1 && "${termcap[Co]}" = "256" ]] && FAST_HIGHLIGHT_STYLES[variable]="fg=blue"
 
 -fast-highlight-fill-option-variables
